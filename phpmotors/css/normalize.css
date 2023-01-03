@@ -8,6 +8,11 @@
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
 
+ @charset "utf-8";
+
+ @import url('https://fonts.googleapis.com/css2?family=Comic+Neue&family=Nova+Square&display=swap');
+ 
+
  html {
     line-height: 1.15; /* 1 */
     -webkit-text-size-adjust: 100%; /* 2 */
