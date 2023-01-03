@@ -1,0 +1,39 @@
+@charset "utf-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue&family=Nova+Square&display=swap');
+
+:root {
+  --accent1-color: #a6cbeb;
+  --accent2-color: #4c96d7;
+  --accent3-color: #3a3a3a;
+  --accent4-color: #fff;
+  --accent5-color: #bababa;
+  --accent6-color: #8d8d8d;
+  
+  /* change the values below to your chosen font(s) */
+  --heading-font: "Nova Square";
+  --paragraph-font: "Comic Neue";
+
+  /* these colors below should be chosen from among your palette colors above */
+  --headline-color-on-white: var(--accent3-color);
+
+  /* headlines on a white background */
+  --headline-color-on-color: var(--accent4-color);
+
+  /* headlines on a colored background */
+  --paragraph-color-on-white: var(--accent3-color);
+
+  /* paragraph text on a white background */
+  --paragraph-color-on-color: var(--accent4-color);
+
+  /* paragraph text on a colored background */
+  --paragraph-background-color: var(--accent3-color);
+
+  /* nav link colors */
+  --nav-link-color: var(--accent4-color);
+  --nav-background-color: var(--accent6-color);
+
+  --nav-hover-link-color: var(--accent3-color);
+  --nav-hover-background-color: var(--accent2-color);
+
+}
