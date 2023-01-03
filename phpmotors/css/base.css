@@ -37,3 +37,125 @@
   --nav-hover-background-color: var(--accent2-color);
 
 }
+
+
+/* html & body */
+html {
+  min-width: 280px;
+  width: 98%;
+  align-self: center;
+}
+
+body {
+  /* width: 98%; */
+  align-self: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  font-size: 18px;
+  text-align: left;
+}
+
+p,
+ul,
+li,
+a {
+  font-family: var(--paragraph-font);
+  color: var(--paragraph-color);
+}
+
+
+.main-nav {
+  width: 100%;
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: flex-start;
+  justify-content: flex-start;
+  list-style-type: none;
+  overflow: hidden;
+  background-color: var(--nav-background-color);
+  padding-inline-start: 0;
+}
+
+/* .main-nav ul {
+  display: flex;
+  width: 100%;
+  padding: 0;
+  flex-direction: column;
+  list-style-type: none;
+  margin-left: 0;
+} */
+
+/* nav within header */
+nav {
+  width: 100%;
+}
+
+footer a {
+  margin: 10px;
+  font-weight: 400;
+  font-size: medium;
+  color: var(--paragraph-color-on-color);
+}
+
+header nav ul li {
+  padding: 0;
+  margin-right: 20px;
+  width: auto;
+}
+
+header nav ul li a {
+  display: block;
+  width: 100%;
+  color: var(--nav-link-color);
+  text-align: center;
+  padding: 0.75em 0;
+  text-decoration: none;
+  font-size: 1.1em;
+  background:
+    linear-gradient(
+      90deg,
+      transparent,
+      var(--nav-hover-link-color),
+      transparent
+    )
+    bottom / var(--d, 0) 3px no-repeat;
+  transition: 0.5s;
+  margin-left: 0;
+}
+
+a:hover {
+  color: var(--nav-hover-link-color);
+}
+
+nav a:hover {
+  background-color: var(--nav-hover-background-color);
+  color: var(--nav-hover-link-color);
+  margin-left: 0;
+  width: 130%;
+}
+
+.active {
+  color: var(--accent3-color);
+}
+
+.current-menu {
+  background-color: var(--nav-hover-background-color);
+  color: var(--nav-hover-link-color);
+  margin-left: 0;
+  width: 120%;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 1em;
+  justify-content: space-between;
+}
+
+footer hr {
+  width: 90%;
+  height: 10px;
+  background-color: var(--accent3-color);
+}
