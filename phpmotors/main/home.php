@@ -1,4 +1,4 @@
 <main>
-  TBD content
+  Home TBD content
   <img src="images/delorean.jpg">
 </main>
