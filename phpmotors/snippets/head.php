@@ -1,3 +1,4 @@
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -16,5 +17,18 @@
     <link rel="stylesheet" media="screen and (min-width:800px)" href="css/large.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <title>PHP Motors</title>
+ 
+    <?php
+    $titles = array(
+        "home.php" => "Home",
+        "used.php" => "Used Cars",
+        "suv.php" => "Sport Utility Vehicles",
+        "sports.php" => "Sports Cars",
+        "trucks.php" => "Trucks",
+        "classic.php" => "Classic Cars"
+    );
+    $current_page = basename($_SERVER['PHP_SELF']);
+    echo "<title>PHP Motors - " . $titles[$current_page] . "</title>";
+    ?>
+
 </head>
