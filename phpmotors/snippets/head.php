@@ -25,7 +25,8 @@
         "suv.php" => "Sport Utility Vehicles",
         "sports.php" => "Sports Cars",
         "trucks.php" => "Trucks",
-        "classic.php" => "Classic Cars"
+        "classic.php" => "Classic Cars",
+        "about.php" => "About PHP Motors"
     );
     $current_page = basename($_SERVER['PHP_SELF']);
     echo "<title>PHP Motors - " . $titles[$current_page] . "</title>";
