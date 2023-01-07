@@ -10,7 +10,7 @@
   </div>
   <img class="hero-img" src="images/delorean.jpg" alt="delorean car" width="908" height="463">
   <div class="contrast-heading home">
-    <a href="purchase.php">Own Today</a>
+    <a href="home.php?page=purchase">Own Today</a>
   </div>
 
   <div class="home bottom-right">

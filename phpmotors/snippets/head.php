@@ -36,7 +36,9 @@
         "sports" => "Sports Cars",
         "trucks" => "Trucks",
         "classic" => "Classic Cars",
-        "about" => "About PHP Motors"
+        "about" => "About PHP Motors",
+        "account" => "Your Account",
+        "purchase" => "Purchase"
     );
     echo "<title>PHP Motors - " . $titles[$current_page] . "</title>";
     ?>
