@@ -36,15 +36,18 @@
 
 /* html & body */
 html {
+  display: flex;
   min-width: 280px;
   width: 98%;
   align-self: center;
+  align-items: center;
+  justify-content: center;
 }
 
 body {
   /* width: 98%; */
   align-self: center;
-  margin: 40px auto;
+  margin: 40px 10px 0 30px;
   font-size: 18px;
   text-align: left;
   background-color: white;
@@ -53,6 +56,10 @@ body {
   padding: 10px;
   max-width: 1024px;
 
+}
+
+h1, h2, h3, h4 {
+  font-family: var(--heading-font);
 }
 
 p,
@@ -157,10 +164,15 @@ footer hr {
 
 .fixed-location {
   position: absolute;
-  top: 70px;
-  left: 5px;
+  top: 100px;
+  left: 12px;
   color: #4c96d7;
   line-height: 0.5em;
+  font-weight: bolder;
+}
+
+.fixed-location p {
+  color: #1F588E;
 }
 
 main.home {
@@ -177,11 +189,59 @@ main.home {
   border: 2px solid #3a3a3a;
   align-items: center;
   justify-content: center;
-  
+  margin: 30px auto;
 }
 
 .contrast-heading.home a {
   text-decoration: none;
+}
 
+img.hero-img
+{
+  margin-top: 50px;
+  width: auto;
+  height: 300px;
+}
 
+@supports (object-fit: cover) {
+  img.hero-img {
+    width: 100%;
+    object-fit: cover;
+    /* object-position: 0% 30%; */
+  }
+}
+
+.home.bulleted-list li {
+  line-height: 150%;
+}
+
+.home.twobytwo-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1 fr 1fr;
+  align-items: center;
+  justify-content: center;
+}
+
+.home.grid-element {
+  display: block;
+  align-items: center;
+  justify-content: center;
+  border: 5px solid var(--accent4-color);
+}
+
+.color-box {
+  display: flex;
+  background-color: var(--accent2-color);
+  height: 90px;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+}
+
+a.part-title {
+  display: block;
+  margin: 0;
+  text-align: center;
+  text-decoration: underline;
 }

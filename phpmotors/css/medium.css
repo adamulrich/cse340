@@ -2,8 +2,19 @@
 
     header nav ul li a {
         font-size: 20px;
-      }
-      
-    
-    
     }
+      
+    img.hero-img {
+        margin-top: 50px auto;
+        width: auto;
+        height: auto;
+    }
+    
+    @supports (object-fit: cover) {
+      img.hero-img {
+        width: 100%;
+        object-fit: cover;
+        /* object-position: 0% 30%; */
+      }
+    }
+  }

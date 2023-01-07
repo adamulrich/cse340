@@ -12,8 +12,8 @@
 
     <link rel="stylesheet" media="screen" href="css/normalize.css">
     <link rel="stylesheet" media="screen" href="css/base.css">
-    <link rel="stylesheet" media="screen and (min-width:600px)" href="css/medium.css">
-    <link rel="stylesheet" media="screen and (min-width:800px)" href="css/large.css">
+    <link rel="stylesheet" media="screen" href="css/medium.css">
+    <link rel="stylesheet" media="screen" href="css/large.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
