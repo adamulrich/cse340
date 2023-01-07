@@ -7,7 +7,7 @@
     <meta name="name" content="PHPMotors">
     <meta name="application-name" content="PHPMotors">
 
-    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="shortcut icon" href="images/site/logo.png">
     <link rel="icon" sizes="72x180" href="images/site/logo.png">
 
     <link rel="stylesheet" media="screen" href="css/normalize.css">
