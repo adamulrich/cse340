@@ -47,15 +47,11 @@ html {
 body {
   /* width: 98%; */
   align-self: center;
-  margin: 40px 10px 0 30px;
+  margin: 10px 10px;
   font-size: 18px;
   text-align: left;
   background-color: white;
-  border: 3px solid var(--accent1-color);
-  border-radius: 1em;
-  padding: 10px;
   max-width: 1024px;
-
 }
 
 h1, h2, h3, h4 {
