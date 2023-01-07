@@ -154,3 +154,34 @@ footer hr {
   align-items: center;
   justify-content: space-between;
 }
+
+.fixed-location {
+  position: absolute;
+  top: 70px;
+  left: 5px;
+  color: #4c96d7;
+  line-height: 0.5em;
+}
+
+main.home {
+  display: grid;
+  position: relative;
+
+}
+
+.contrast-heading.home {
+  display: flex;
+  width: 150px;
+  height: 40px;
+  background-color: #4c96d7;
+  border: 2px solid #3a3a3a;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.contrast-heading.home a {
+  text-decoration: none;
+
+
+}

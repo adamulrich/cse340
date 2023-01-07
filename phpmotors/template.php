@@ -19,8 +19,7 @@
     } else {
         $current_page = 'home';
     }
-
-    echo $current_page;
+    
     require_once $_SERVER['DOCUMENT_ROOT'] . '/cse340/phpmotors/main/' . $current_page . '.php';
     ?>
 
