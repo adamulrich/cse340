@@ -166,7 +166,7 @@ footer hr {
 main.home {
   display: grid;
   position: relative;
-
+  grid-template-columns: 1fr;
 }
 
 .contrast-heading.home {
