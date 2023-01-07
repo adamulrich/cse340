@@ -38,7 +38,8 @@
         "classic" => "Classic Cars",
         "about" => "About PHP Motors",
         "account" => "Your Account",
-        "purchase" => "Purchase"
+        "purchase" => "Purchase",
+        "500" => "Server Error"
     );
     echo "<title>PHP Motors - " . $titles[$current_page] . "</title>";
     ?>
