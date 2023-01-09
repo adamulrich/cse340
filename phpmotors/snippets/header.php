@@ -1,9 +1,11 @@
 <header id="header">
     <div class="flex-space-between">
-        <a href="home.php?page=home">
+        <a href="index.php?action=home">
             <img src="./images/site/logo.png" alt="php motors logo" height="36" width="100">
         </a>
-        <a href="home.php?page=account">My Account</a>
+        <a href="index.php?action=account">My Account</a>
     </div>
-    <?php require_once $_SERVER['DOCUMENT_ROOT'] . '/cse340/phpmotors/snippets/navigation.php'; ?> 
+    <nav>
+        <?php echo $navList; ?>
+    </nav>
 </header>

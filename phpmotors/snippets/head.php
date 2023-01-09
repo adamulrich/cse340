@@ -18,17 +18,13 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
     <?php
-    $url = parse_url($_SERVER['REQUEST_URI']);
-    if (array_key_exists('query', $url)) {
-        parse_str($url['query'], $params);
-        if (array_key_exists('page', $params)) {
-            $current_page = $params['page'];
-        } else {
-            $current_page = 'home';
-        }
-    } else {
+    $query_string = filter_input(INPUT_GET, "action", FILTER_DEFAULT);
+    if ($query_string == '') {
         $current_page = 'home';
+    } else {
+        $current_page = $query_string;
     }
+
     $titles = array(
         "home" => "Home",
         "used" => "Used Cars",

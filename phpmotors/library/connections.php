@@ -10,7 +10,6 @@ function phpmotorsConnect(){
  // Create the actual connection object and assign it to a variable
  try {
     $link = new PDO($dsn, $username, $password, $options);
-    echo "success";
     return $link;
  } catch(PDOException $e) {
   header('Location: ../home.php?page=500');
